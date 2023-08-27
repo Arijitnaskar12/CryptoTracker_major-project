@@ -1,0 +1,148 @@
+.cardContainer{
+    width:300px;
+    height:300px;
+    background-color: var(--darkgrey);
+    border-radius: 0.75rem;
+    border:2px solid var(--darkgrey);
+}
+.cardContainer:hover{
+border-color:var(--green);
+transition:all 0.3s;
+}
+.cardContainer_red:hover{
+    border-color:var(--red);
+    transition: all 0.3s;
+}
+.upperdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+    margin:1.5rem;
+}
+.upperPara{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.image-logo{
+    width:3rem;
+    height:3rem;
+}
+.coinSymbol{
+    color:var(--white);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin:0;
+    font-weight: 600;
+}
+.coinName{
+    color:var(--grey);
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin:0;
+    font-weight: light;
+}
+.middleDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    margin:1rem 1.5rem;
+}
+.percentage{
+    border:2px solid var(--green);
+    border-radius: 1rem;
+    padding:0.35rem 1.25rem;
+    text-align: center;
+    color:var(--green);
+    font-weight: 600;
+    font-size: 1.1rem;
+    min-width:64px;
+}
+.pred{
+    border:2px solid var(--red);
+    color:var(--red);
+    border-radius: 1rem;
+    padding:0.35rem 1.25rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    min-width: 64px;
+}
+.icon-green{
+    border:2px solid var(--green);
+    border-radius: 1rem;
+    width:2rem  !important;
+    height:2rem !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--green);
+}
+.icon-red{
+    border:2px solid var(--red);
+    border-radius: 1rem;
+    width:2rem;
+    height:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--red);
+}
+.pred:hover,.icon-red:hover{
+    background-color: var(--red);
+    color:var(--white);
+    transition: all 0.3s;
+}
+.percentage:hover, .icon-green:hover{
+    background-color: var(--green);
+    color:var(--white);
+    transition: all 0.3s;
+}
+.LowerDiv{
+    margin:1.5rem;
+}
+.coin-price{
+    color:var(--green);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.totalVolume{
+    color:var(--grey);
+    font-size: 1rem;
+    font-weight:500;
+}
+.watchlist-icon {
+    padding: 0.5rem;
+    display: block;
+    color: var(--green);
+    font-size: 2rem !important;
+    margin-left: auto;
+    border: 2px solid var(--green);
+    border-radius: 3rem;
+    font-weight: 600;
+  }
+  
+  .watchlist-icon:hover {
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  
+  .watchlist-icon-red {
+    color: var(--red);
+    border: 2px solid var(--red);
+  }
+  
+  .watchlist-icon-red:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  @media only screen and (max-width: 800px) {
+    .watchlist-icon {
+      font-size: 1rem !important;
+      padding: 0.35rem;
+    }
+  }

@@ -1,0 +1,15 @@
+.back-to-top-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:3rem;
+    height:3rem;
+    position: fixed;
+    right:1.5rem;
+    bottom:1.5rem; 
+    border-radius: 50%;
+    background-color: var(--blue);
+    border:2px solid var(--blue);
+    cursor: pointer;
+
+}

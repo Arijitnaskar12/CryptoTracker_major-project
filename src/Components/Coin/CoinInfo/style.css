@@ -1,0 +1,7 @@
+.description a{
+   
+    text-decoration: underline;
+}
+.description a:hover{
+    color:var(--blue);
+}
